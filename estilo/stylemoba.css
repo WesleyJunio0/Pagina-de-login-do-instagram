@@ -16,6 +16,7 @@
 body {
             height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000 ;
 
 }
 
@@ -24,17 +25,43 @@ main {
 }
 
 section#area-de-login {
-    border: 1px solid black;
+    border: 1px solid #363636;
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section#area-de-login > h1 {
- font-family:var(--font-logo);
- font-weight: lighter;
+.image-logo {
+    margin: 36px 0  12px 0;
+    width: 175px;
+    height: 51px;
+    background-image: url(../imagens/image-logo.png);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
+form {
+ padding: 24px 0 0 0;
+}
+
+ div.fromin > input {
+    background-color: #121212;
+ }
+
+ form input {
+    border: 1px solid #363636;
+    border-radius: 2px;
+    height: 20px;
+ }
+
+ div.botao > input {
+    border-radius: 6px;
+    background-color: #3441af;
+    border: none;
+ }
 
 
 
