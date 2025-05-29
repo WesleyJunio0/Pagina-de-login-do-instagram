@@ -99,5 +99,38 @@ form {
     
  }
 
+ section#baixar-app {
+    width: 350px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15px;
+   
+
+ }
+
+ div.paragra {
+    padding-bottom: 15px;
+ }
+
+section#baixar-app img {
+    width: 134px;
+    height: 45px;
+    
+
+}
+
+section#baixar-app a {
+    display: inline-block;
+}
+
+a.mgm {
+    margin-right: 8px;
+    
+} 
+
+
 
 
