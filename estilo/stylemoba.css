@@ -20,8 +20,20 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 main {
     position: relative;
+    margin-bottom: 44px;
 }
 
 section#area-de-login {
@@ -30,7 +42,7 @@ section#area-de-login {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 12px auto;
+    margin: 10px auto;
 
 }
 
@@ -49,9 +61,67 @@ section#area-de-login {
     width: 100%;    
 }
 
+#formx > p {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.linha {
+    position: relative;
+    margin: 0 40px;
+    font-weight: normal;
+    font-size: .8em;
+    color: #ffffffb8;
+}
+
+
+.linha::after,
+.linha::before {
+    content:'';
+    position: absolute;
+    width: 106px; /* Ajuste o comprimento das linhas */
+    height: 0.5px;
+    background-color: #ffffff28;
+    
+}
+
+.linha::before {
+     top: 50%;
+    left: 0px; /* Ajuste a posição da linha esquerda */
+ }
+.linha::after {
+     top: 50%;
+     right: 0px; /* Ajuste a posição da linha direita */
+
+ }
+
+.entr {
+    margin: 33px 0 20px 0;
+
+}
+
+.entr a {
+    color: #135EF2;
+    font-weight: bold;
+   
+}
+
+.esque {
+    margin: 20px 0;
+}
+
+.esque a {
+    color: #5768fe;
+
+}
+
+
+
 form {
- padding: 24px 0 0 0;
-  text-align: center;
+    padding: px 0 0 0;
+    text-align: center;
 }
 
  div.fromin > input {
@@ -64,8 +134,7 @@ form {
     border-radius: 3px;
     height: 37px;
     width: 75%;
-    color: aliceblue;
-    
+    color: aliceblue;  
     
  }
 
@@ -89,7 +158,7 @@ form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 12px auto;
+    margin: 10px auto;
  }
 
  section#cadastro a {
@@ -107,7 +176,6 @@ form {
     flex-direction: column;
     margin: auto;
     margin-top: 15px;
-   
 
  }
 
@@ -117,8 +185,7 @@ form {
 
 section#baixar-app img {
     width: 134px;
-    height: 45px;
-    
+    height: 45px;   
 
 }
 
@@ -131,6 +198,75 @@ a.mgm {
     
 } 
 
+footer {
+    padding: 0 16px;
+    
+}
+
+#linksa {
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a.footalink{
+    
+    color: rgba(240, 248, 255, 0.658);
+    font-size: .8em;
+    margin: 0 8px 12px 8px;
+    
+}
+
+a.footalink:hover {
+    text-decoration: underline;
+}
+
+#idioma {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.items {
+     margin: 8px 20px;
+    
+}
+
+.items > p {
+    color: rgba(240, 248, 255, 0.658);
+}
+
+select {
+    background-color: transparent;
+    color: rgba(240, 248, 255, 0.658);
+    border: none; 
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+option {
+    color: rgba(0, 0, 0, 0.658);
+}
 
 
+select::-webkit-scrollbar {
+    width: 8px;
+    background: #222;
+}
+
+select::-webkit-scrollbar-thumb {
+    background: #5768fe;
+    border-radius: 4px;
+}
+
+select::-webkit-scrollbar-thumb:hover {
+    background: #3441af;
+}
 
